@@ -21,12 +21,14 @@ module.exports = {
         'prettier/prettier': 'error',
         '@typescript-eslint/no-explicit-any': ['off'],
         '@typescript-eslint/indent': ['off'],
-        '@typescript-eslint/no-unused-vars': ['error'],
+        '@typescript-eslint/no-unused-vars': ['off'],
+        'no-undef': ['off'],
     },
     globals: {
         defineProps: 'readonly',
         defineEmits: 'readonly',
         defineComponent: 'readonly',
         defineExpose: 'readonly',
+        API: 'readonly',
     },
 }
